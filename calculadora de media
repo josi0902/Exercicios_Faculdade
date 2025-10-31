@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMYe86gebyrnQ+NAM+Ohdpt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/josi0902/Exercicios_Faculdade/blob/master/calculadora%20de%20media\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mw2OpTtOZL5V",
+        "outputId": "455fe5d4-85a0-4eab-ae9b-29be83e23221"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "----- Calculadora de Média ------\n",
+            "-----Digite sua Primeira nota:5\n",
+            "-----Digite sua Segunda nota:5\n",
+            "-----Digite sua Terceira nota:6\n",
+            "-----Digite sua Quarta nota:5\n",
+            "-----Sua média é:----- 5.25\n",
+            "*****Reprovado*****\n"
+          ]
+        }
+      ],
+      "source": [
+        "print('----- Calculadora de Média ------')\n",
+        "\n",
+        "nota1 = float(input('-----Digite sua Primeira nota:'))\n",
+        "nota2 = float(input('-----Digite sua Segunda nota:'))\n",
+        "nota3 = float(input('-----Digite sua Terceira nota:'))\n",
+        "nota4 = float(input('-----Digite sua Quarta nota:'))\n",
+        "\n",
+        "soma = nota1 + nota2 + nota3 + nota4\n",
+        "media = soma / 4\n",
+        "\n",
+        "print('-----Sua média é:-----', media)\n",
+        "\n",
+        "if media > 7:\n",
+        "   print('*****Aprovado*****')\n",
+        "else:\n",
+        "   print('*****Reprovado*****')"
+      ]
+    }
+  ]
+}
